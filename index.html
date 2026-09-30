@@ -68,7 +68,11 @@
     <div id="site" hidden>
       <header class="hero">
         <div class="hero__photo">
-          <img src="images/yukie.jpg" alt="My babyy Yukie" />
+          <img
+            src="images/yukie.jpg"
+            alt="My babyy Yukie"
+            onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/images/yukie.jpg';}"
+          />
         </div>
         <div class="hero__content">
           <p class="hero__name">My babyy Yukie</p>
